@@ -27,7 +27,7 @@ github_releases() {
   if [ -n "$GITHUB_API_TOKEN" ]; then
     cmd="$cmd --header 'Authorization: token $GITHUB_API_TOKEN'"
   fi
-  local releases_path="https://api.github.com/repos/elm/compiler/releases"
+  local releases_path="https://api.github.com/repos/avh4/elm-format/releases"
   eval "$cmd $releases_path" | grep 'tag_name' | sed -e 's/.* "//;s/",//' | sort_versions | xargs
 }
 
