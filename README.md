@@ -1,6 +1,6 @@
 <div align="center">
 <h1>asdf-elm-format</h1>
-<span><a href="https://github.com/dannygreg/asdf-elm-format">elm-format</a> plugin for asdf version manager</span>
+<span><a href="https://github.com/avh4/elm-format">elm-format</a> plugin for asdf version manager</span>
 </div>
 <hr />
 
